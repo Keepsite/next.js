@@ -16,7 +16,6 @@
   },
   "scripts": {
     "build": "gulp",
-    "install": "gulp release",
     "pretest": "npm run lint",
     "test": "gulp test",
     "html-report": "nyc report --reporter=html",
